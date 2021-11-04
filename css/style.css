@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.he {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0D0F15;
+  height: 18vh;
+}
+
+.sviyz {
+  border: 1px solid #FF3D00;
+  padding: 9px 34px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #FF3D00;
+  flex-grow: 0;
+}
+
+.sviyz :visited {
+  color: #FF3D00;
+}
+
+.sviyz :hover {
+  color: #FF3D00;
+}
+
+.lang {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.logo {
+  flex-grow: 0;
+}
+.langimg {
+  margin-right: 5px;
+}
