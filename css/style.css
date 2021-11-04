@@ -42,3 +42,41 @@
 .langimg {
   margin-right: 5px;
 }
+
+.carAPI::before {
+  content: '';
+  background: no-repeat url("../img/car-background.png");
+  background-color: grey;
+  height: 99vh;
+  width: 100vw;
+  filter: blur(5px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.carAPI {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.carAPI .blur::before {
+  background-color: rgba(13, 15, 21, 0.6);
+  opacity: 50%;
+  width: 99vw;
+  height: 99vh;
+  margin: 0;
+}
+
+.appName {
+  font-size: 80px;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+}
