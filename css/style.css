@@ -12,7 +12,7 @@
   padding: 0 45px;
 }
 
-.sviyz {
+.connection {
   border: 1px solid #FF3D00;
   padding: 9px 34px;
   border-radius: 60px;
@@ -21,11 +21,7 @@
   flex-grow: 0;
 }
 
-.sviyz :visited {
-  color: #FF3D00;
-}
-
-.sviyz :hover {
+.connection: hover {
   color: #FF3D00;
 }
 
@@ -36,9 +32,101 @@
   flex-grow: 1;
   margin-right: 25px;
 }
+
 .logo {
   flex-grow: 0;
 }
+
+.logotip {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
 .langimg {
   margin-right: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D0F15;
+  height: 28vh;
+}
+
+.container {
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.veb {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0D0F15;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 53px;
+  padding-right: 42px;
+}
+
+.Arrowtop {
+  padding-bottom: 35px;
+}
+
+.Arrowbottom {
+  padding-bottom: 50px;
+}
+
+.textleft {
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
+
+.textright {
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
+
+.bigtext {
+  color: #FFFFFF;
+}
+
+.p2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.line {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
