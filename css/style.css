@@ -13,7 +13,11 @@
   padding: 0 45px;
 }
 
+<<<<<<< HEAD
 .buttonLink {
+=======
+.connection {
+>>>>>>> 2d2446a61c5c1b55835a8458bdcc97dd8d080794
   border: 1px solid #FF3D00;
   background-color: #FF3D00;
   padding: 9px 34px;
@@ -24,7 +28,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+<<<<<<< HEAD
 .buttonLink:hover {
+=======
+.connection: hover {
+>>>>>>> 2d2446a61c5c1b55835a8458bdcc97dd8d080794
   color: #FF3D00;
   background-color: inherit;
 }
@@ -41,10 +49,20 @@
   flex-grow: 0;
 }
 
+<<<<<<< HEAD
+=======
+.logotip {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+>>>>>>> 2d2446a61c5c1b55835a8458bdcc97dd8d080794
 .langimg {
   margin-right: 5px;
 }
 
+<<<<<<< HEAD
 .carAPI {
   display: flex;
   flex-direction: column;
@@ -97,10 +115,47 @@
 .benefits {
   height: 435px;
   display: flex;
+=======
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D0F15;
+  height: 28vh;
+}
+
+.container {
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.veb {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0D0F15;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+>>>>>>> 2d2446a61c5c1b55835a8458bdcc97dd8d080794
+  justify-content: center;
+  align-items: center;
+}
+
+<<<<<<< HEAD
 .benefits .group {
   display: flex;
   flex-direction: column;
@@ -134,4 +189,50 @@
   font-family: 'Montserrat';
   src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
   color: #0D0F15;
+=======
+.Arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 53px;
+  padding-right: 42px;
+}
+
+.Arrowtop {
+  padding-bottom: 35px;
+}
+
+.Arrowbottom {
+  padding-bottom: 50px;
+}
+
+.textleft {
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
+
+.textright {
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
+
+.bigtext {
+  color: #FFFFFF;
+}
+
+.p2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.line {
+  padding-top: 15px;
+  padding-bottom: 15px;
+>>>>>>> 2d2446a61c5c1b55835a8458bdcc97dd8d080794
 }
