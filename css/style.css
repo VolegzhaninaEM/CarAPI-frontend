@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .he {
@@ -8,25 +9,24 @@
   justify-content: space-between;
   align-items: center;
   background-color: #0D0F15;
-  height: 18vh;
+  height: 58px;
   padding: 0 45px;
 }
 
-.sviyz {
+.connection {
   border: 1px solid #FF3D00;
+  background-color: #FF3D00;
   padding: 9px 34px;
   border-radius: 60px;
   text-decoration: none;
-  color: #FF3D00;
+  color: #fff;
   flex-grow: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.sviyz :visited {
+.connection:hover {
   color: #FF3D00;
-}
-
-.sviyz :hover {
-  color: #FF3D00;
+  background-color: inherit;
 }
 
 .lang {
@@ -36,47 +36,191 @@
   flex-grow: 1;
   margin-right: 25px;
 }
+
 .logo {
   flex-grow: 0;
+}
+
+.logotip {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
 }
 .langimg {
   margin-right: 5px;
 }
 
-.carAPI::before {
-  content: '';
-  background: no-repeat url("../img/car-background.png");
-  background-color: grey;
-  height: 99vh;
-  width: 100vw;
-  filter: blur(5px);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
 .carAPI {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/car-bg.png");
+  background-size: cover;
+  height: 686px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  position: relative;
-}
-
-.carAPI .blur::before {
-  background-color: rgba(13, 15, 21, 0.6);
-  opacity: 50%;
-  width: 99vw;
-  height: 99vh;
-  margin: 0;
+  padding: 82px;
 }
 
 .appName {
   font-size: 80px;
 }
 
+.carAPI p {
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.caption {
+  padding: 31px 0 40px;
+  font-size: 20px;
+}
+
+.carAPI button {
+  padding: 18px 34px;
+  font-size: 16px;
+}
+
+.moveImg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 31px 0 40px;
+  font-size: 20px;
+}
+
+.moveImg p{
+  display:inline-block;
+  padding-left: 7px;
+}
+
+.moveImg img {
+  width: 29px;
+}
+
+.benefits {
+  height: 435px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D0F15;
+  height: 28vh;
+}
+
+.container {
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.veb {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0D0F15;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits .group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 135px;
+  font-size: 20px;
+}
+
+.benefits .group h2 {
+  text-transform: capitalize;
+}
+
+.benefits .group img {
+  height: 91px;
+  width: 91px;
+}
+
+.group .point {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+}
+
+.group .point .discription {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  padding-left: 28px;
+}
+
+.Arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 53px;
+  padding-right: 42px;
+}
+
+.Arrowtop {
+  padding-bottom: 35px;
+}
+
+.Arrowbottom {
+  padding-bottom: 50px;
+}
+
+.textleft {
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
+
+.textright {
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
+
+.bigtext {
+  color: #FFFFFF;
+}
+
+.p2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.line {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 @font-face {
   font-family: 'Montserrat';
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+  color: #0D0F15;
 }
