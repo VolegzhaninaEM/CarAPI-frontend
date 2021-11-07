@@ -7,6 +7,7 @@
 p {
   font-size: 15px;
 }
+
 .he {
   display: flex;
   justify-content: space-between;
@@ -49,6 +50,7 @@ p {
   color: #FFFFFF;
   font-size: 25px;
 }
+
 .langimg {
   margin-right: 5px;
 }
@@ -93,8 +95,8 @@ p {
   font-size: 20px;
 }
 
-.moveImg p{
-  display:inline-block;
+.moveImg p {
+  display: inline-block;
   padding-left: 7px;
 }
 
@@ -209,4 +211,52 @@ p {
   font-family: 'Montserrat';
   src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
   color: #0D0F15;
+}
+
+#connectToUs {
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.textConnect p {
+  padding-bottom: 15px;
+}
+
+.text {
+  height: 40px;
+  width: 425px;
+  margin-bottom: 20px;
+  text-align: flex-start;
+  padding-left: 10px;
+}
+
+.txtarea {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 31px;
+}
+
+.send {
+  width: 169px;
+  border: 1px solid #FF3D00;
+  background-color: #FF3D00;
+  padding: 9px 34px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.send:hover {
+  color: #FF3D00;
+  background-color: inherit;
 }
