@@ -260,3 +260,11 @@ p {
   color: #FF3D00;
   background-color: inherit;
 }
+
+.logoConnect {
+  fill: #0D0F15;
+}
+
+.logoConnect:hover {
+  fill:#FF3D00;
+}
