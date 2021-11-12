@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  font-size: 15px;
+}
+
 .he {
   display: flex;
   justify-content: space-between;
@@ -13,7 +17,7 @@
   padding: 0 45px;
 }
 
-.connection {
+.buttom {
   border: 1px solid #FF3D00;
   background-color: #FF3D00;
   padding: 9px 34px;
@@ -24,7 +28,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.connection:hover {
+.buttom:hover {
   color: #FF3D00;
   background-color: inherit;
 }
@@ -46,6 +50,7 @@
   color: #FFFFFF;
   font-size: 25px;
 }
+
 .langimg {
   margin-right: 5px;
 }
@@ -90,8 +95,8 @@
   font-size: 20px;
 }
 
-.moveImg p{
-  display:inline-block;
+.moveImg p {
+  display: inline-block;
   padding-left: 7px;
 }
 
@@ -102,7 +107,7 @@
 .benefits {
   height: 435px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -119,25 +124,20 @@
   color: #FFFFFF;
 }
 
-.veb {
+.web {
+  height: 550px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: #0D0F15;
 }
 
-.block {
+.scheme {
   display: flex;
   justify-content: center;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.right {
+.scheme__block {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,7 +173,7 @@
   padding-left: 28px;
 }
 
-.Arrow {
+.arrows {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -181,15 +181,12 @@
   padding-right: 42px;
 }
 
-.Arrowtop {
-  padding-bottom: 35px;
-}
-
-.Arrowbottom {
+.arrows__padding {
+  padding-top: 25px;
   padding-bottom: 50px;
 }
 
-.textleft {
+.scheme__block a {
   color: #FFFFFF;
   display: flex;
   text-align: center;
@@ -197,20 +194,11 @@
   padding-bottom: 35px;
 }
 
-.textright {
-  color: #FFFFFF;
-  display: flex;
-  text-align: center;
-  flex-basis: 49px;
-  padding-bottom: 35px;
-}
-
-.bigtext {
+.descriptCarApi {
   color: #FFFFFF;
 }
 
-.p2 {
-  padding-top: 15px;
+.descriptCarApi p {
   padding-bottom: 15px;
 }
 
@@ -223,4 +211,60 @@
   font-family: 'Montserrat';
   src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
   color: #0D0F15;
+}
+
+#connectToUs {
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.textConnect p {
+  padding-bottom: 15px;
+}
+
+.text {
+  height: 40px;
+  width: 425px;
+  margin-bottom: 20px;
+  text-align: flex-start;
+  padding-left: 10px;
+}
+
+.txtarea {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 31px;
+}
+
+.send {
+  width: 169px;
+  border: 1px solid #FF3D00;
+  background-color: #FF3D00;
+  padding: 9px 34px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.send:hover {
+  color: #FF3D00;
+  background-color: inherit;
+}
+
+.logoConnect {
+  fill: #0D0F15;
+}
+
+.logoConnect:hover {
+  fill:#FF3D00;
 }
