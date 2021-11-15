@@ -8,6 +8,10 @@ p {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .he {
   display: flex;
   justify-content: space-between;
@@ -236,12 +240,17 @@ p {
   margin-bottom: 20px;
   text-align: flex-start;
   padding-left: 10px;
+  border: 1px solid #0D0F15;
+  border-radius: 3px;
 }
 
 .txtarea {
   padding-left: 10px;
   padding-top: 10px;
   margin-bottom: 31px;
+  border: 1px solid #0D0F15;
+  border-radius: 3px;
+  resize: vertical;
 }
 
 .send {
@@ -253,6 +262,8 @@ p {
   text-decoration: none;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  align-self: flex-end;
+  text-transform: uppercase;
 }
 
 .send:hover {
@@ -261,9 +272,14 @@ p {
 }
 
 .logoConnect {
+  padding-right: 10px;
   fill: #0D0F15;
 }
 
 .logoConnect:hover {
   fill:#FF3D00;
 }
+.text::-webkit-input-placeholder,
+.txtarea::-webkit-input-placeholder {
+  font-weight: bold;
+  color:#0D0F15;}
