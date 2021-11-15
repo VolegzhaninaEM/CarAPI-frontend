@@ -6,6 +6,9 @@
 p {
   font-size: 15px;
 }
+a {
+  text-decoration: none;
+}
 .he {
   display: flex;
   justify-content: space-between;
@@ -15,7 +18,7 @@ p {
   width: 100%;
   position: fixed;
 }
-.buttom {
+.button {
   border: 1px solid #FF3D00;
   background-color: #FF3D00;
   padding: 9px 34px;
@@ -26,7 +29,7 @@ p {
   flex-grow: 0;
   font-family: 'Montserrat', sans-serif;
 }
-.buttom:hover {
+.button:hover {
   color: #FF3D00;
   background-color: inherit;
 }
@@ -37,17 +40,17 @@ p {
   flex-grow: 1;
   margin-right: 25px;
 }
+.lang__img {
+  margin-right: 5px;
+}
 .logo {
   flex-grow: 0;
   margin-left: 45px;
 }
 .logotip {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
   font-size: 25px;
-}
-.langimg {
-  margin-right: 5px;
 }
 .carAPI {
   display: flex;
@@ -60,21 +63,21 @@ p {
   font-family: 'Montserrat', sans-serif;
   padding: 82px;
 }
-.appName {
-  font-size: 80px;
-}
 .carAPI p {
   font-style: normal;
   text-align: center;
   line-height: 1.5;
 }
-.caption {
-  padding: 31px 0 40px;
-  font-size: 20px;
-}
 .carAPI button {
   padding: 18px 34px;
   font-size: 16px;
+}
+.appName {
+  font-size: 80px;
+}
+.caption {
+  padding: 31px 0 40px;
+  font-size: 20px;
 }
 .moveImg {
   display: flex;
@@ -101,11 +104,11 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #0D0F15;
-  height: 28vh;
+  height: 10vh;
 }
 .container {
   line-height: 23px;
-  color: #FFFFFF;
+  color: #fff;
 }
 .web {
   height: 550px;
@@ -124,6 +127,13 @@ p {
   justify-content: center;
   align-items: center;
 }
+.scheme__block a {
+  color: #fff;
+  display: flex;
+  text-align: center;
+  flex-basis: 49px;
+  padding-bottom: 35px;
+}
 .benefits .group {
   display: flex;
   flex-direction: column;
@@ -136,14 +146,14 @@ p {
   height: 91px;
   width: 91px;
 }
-.group .point {
+.benefits .group .point {
   display: flex;
   flex-direction: row;
 }
-.group .point:first-child {
+.benefits .group .point:first-child {
   padding-bottom: 60px;
 }
-.group .point .discription {
+.benefits .group .point .discription {
   display: flex;
   flex-direction: column;
   width: 340px;
@@ -160,15 +170,8 @@ p {
   padding-top: 25px;
   padding-bottom: 50px;
 }
-.scheme__block a {
-  color: #FFFFFF;
-  display: flex;
-  text-align: center;
-  flex-basis: 49px;
-  padding-bottom: 35px;
-}
 .descriptCarApi {
-  color: #FFFFFF;
+  color: #fff;
 }
 .descriptCarApi p {
   padding-bottom: 15px;
@@ -196,13 +199,25 @@ p {
   height: 40px;
   width: 425px;
   margin-bottom: 20px;
-  text-align: flex-start;
   padding-left: 10px;
+  border: 1px solid #0D0F15;
+  border-radius: 3px;
+}
+.text::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #0D0F15;
 }
 .txtarea {
   padding-left: 10px;
   padding-top: 10px;
   margin-bottom: 31px;
+  border: 1px solid #0D0F15;
+  border-radius: 3px;
+  resize: vertical;
+}
+.txtarea::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #0D0F15;
 }
 .send {
   width: 169px;
@@ -213,6 +228,8 @@ p {
   text-decoration: none;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  align-self: flex-end;
+  text-transform: uppercase;
 }
 .send:hover {
   color: #FF3D00;
@@ -220,6 +237,7 @@ p {
 }
 .logoConnect {
   fill: #0D0F15;
+  padding-right: 10px;
 }
 .logoConnect:hover {
   fill: #FF3D00;
