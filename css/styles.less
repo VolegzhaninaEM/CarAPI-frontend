@@ -12,6 +12,10 @@ p {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .he {
   display: flex;
   justify-content: space-between;
@@ -124,7 +128,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: @black;
-  height: 28vh;
+  height: 10vh;
 }
 
 .container {
@@ -239,14 +243,28 @@ p {
   height: 40px;
   width: 425px;
   margin-bottom: 20px;
-  text-align: flex-start;
   padding-left: 10px;
+  border: 1px solid #0D0F15;
+  border-radius: 3px;
+
+  &::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #0D0F15;
+  }
 }
 
 .txtarea {
   padding-left: 10px;
   padding-top: 10px;
   margin-bottom: 31px;
+  border: 1px solid #0D0F15;
+  border-radius: 3px;
+  resize: vertical;
+
+  &::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #0D0F15;
+  }
 }
 
 .send {
@@ -258,6 +276,8 @@ p {
   text-decoration: none;
   color: @white;
   font-family: 'Montserrat', sans-serif;
+  align-self: flex-end;
+  text-transform: uppercase;
 
   &:hover {
     color: @orange;
@@ -267,6 +287,7 @@ p {
 
 .logoConnect {
   fill: @black;
+  padding-right: 10px;
 
   &:hover {
     fill: @orange;
