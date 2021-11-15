@@ -1,270 +1,274 @@
+@orange: #FF3D00;
+@black: #0D0F15;
+@white: #fff;
+
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  p {
-    font-size: 15px;
-  }
-  
-  .he {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0D0F15;
-    height: 58px;
-    width: 100%;
-    position: fixed;
-  }
-  
-  .buttom {
-    border: 1px solid #FF3D00;
-    background-color: #FF3D00;
-    padding: 9px 34px;
-    margin-right: 45px;
-    border-radius: 60px;
-    text-decoration: none;
-    color: #fff;
-    flex-grow: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .buttom:hover {
-    color: #FF3D00;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+.he {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: @black;
+  height: 58px;
+  width: 100%;
+  position: fixed;
+}
+
+.button {
+  border: 1px solid @orange;
+  background-color: @orange;
+  padding: 9px 34px;
+  margin-right: 45px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: @white;
+  flex-grow: 0;
+  font-family: 'Montserrat', sans-serif;
+
+  &:hover {
+    color: @orange;
     background-color: inherit;
   }
-  
-  .lang {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-grow: 1;
-    margin-right: 25px;
-  }
-  
-  .logo {
-    flex-grow: 0;
-    margin-left: 45px;
-  }
-  
-  .logotip {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 25px;
-  }
-  
-  .langimg {
+}
+
+.lang {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 25px;
+
+  &__img {
     margin-right: 5px;
   }
-  
-  .carAPI {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../img/car-bg.png");
-    background-size: cover;
-    height: 686px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    padding: 82px;
-  }
-  
-  .appName {
-    font-size: 80px;
-  }
-  
-  .carAPI p {
+}
+
+.logo {
+  flex-grow: 0;
+  margin-left: 45px;
+}
+
+.logotip {
+  text-decoration: none;
+  color: @white;
+  font-size: 25px;
+}
+
+.carAPI {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/car-bg.png");
+  background-size: cover;
+  height: 686px;
+  color: @white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 82px;
+
+  p {
     font-style: normal;
     text-align: center;
     line-height: 1.5;
   }
-  
-  .caption {
-    padding: 31px 0 40px;
-    font-size: 20px;
-  }
-  
-  .carAPI button {
+
+  button {
     padding: 18px 34px;
     font-size: 16px;
   }
-  
-  .moveImg {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 31px 0 40px;
-    font-size: 20px;
-  }
-  
-  .moveImg p {
+}
+
+.appName {
+  font-size: 80px;
+}
+
+
+.caption {
+  padding: 31px 0 40px;
+  font-size: 20px;
+}
+
+.moveImg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 31px 0 40px;
+  font-size: 20px;
+
+  p {
     display: inline-block;
     padding-left: 7px;
   }
-  
-  .moveImg img {
+
+  img {
     width: 29px;
   }
-  
-  .benefits {
-    height: 435px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0D0F15;
-    height: 28vh;
-  }
-  
-  .container {
-    line-height: 23px;
-    color: #FFFFFF;
-  }
-  
-  .web {
-    height: 550px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #0D0F15;
-  }
-  
-  .scheme {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .scheme__block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .benefits .group {
+}
+
+.benefits {
+  height: 435px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: @black;
+  height: 28vh;
+}
+
+.container {
+  line-height: 23px;
+  color: @white;
+}
+
+.web {
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: @black;
+}
+
+.scheme {
+  display: flex;
+  justify-content: center;
+
+  &__block {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      color: @white;
+      display: flex;
+      text-align: center;
+      flex-basis: 49px;
+      padding-bottom: 35px;
+    }
   }
-  
-  .benefits .group h2 {
+}
+
+.benefits .group {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+  h2 {
     text-transform: capitalize;
   }
-  
-  .benefits .group img {
+
+  img {
     height: 91px;
     width: 91px;
   }
-  
-  .group .point {
+
+  .point {
     display: flex;
     flex-direction: row;
+
+    &:first-child {
+      padding-bottom: 60px;
+    }
+
+    .discription {
+      display: flex;
+      flex-direction: column;
+      width: 340px;
+      padding-left: 28px;
+    }
   }
-  
-  .group .point:first-child {
-    padding-bottom: 60px;
-  }
-  
-  .group .point .discription {
-    display: flex;
-    flex-direction: column;
-    width: 340px;
-    padding-left: 28px;
-  }
-  
-  .arrows {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-left: 53px;
-    padding-right: 42px;
-  }
-  
-  .arrows__padding {
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 53px;
+  padding-right: 42px;
+
+  &__padding {
     padding-top: 25px;
     padding-bottom: 50px;
   }
-  
-  .scheme__block a {
-    color: #FFFFFF;
-    display: flex;
-    text-align: center;
-    flex-basis: 49px;
-    padding-bottom: 35px;
-  }
-  
-  .descriptCarApi {
-    color: #FFFFFF;
-  }
-  
-  .descriptCarApi p {
+}
+
+.descriptCarApi {
+  color: @white;
+
+  p {
     padding-bottom: 15px;
   }
-  
-  .line {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  
-  #connectToUs {
-    height: 550px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  .contact_form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  
-  .textConnect p {
-    padding-bottom: 15px;
-  }
-  
-  .text {
-    height: 40px;
-    width: 425px;
-    margin-bottom: 20px;
-    text-align: flex-start;
-    padding-left: 10px;
-  }
-  
-  .txtarea {
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-bottom: 31px;
-  }
-  
-  .send {
-    width: 169px;
-    border: 1px solid #FF3D00;
-    background-color: #FF3D00;
-    padding: 9px 34px;
-    border-radius: 60px;
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .send:hover {
-    color: #FF3D00;
+}
+
+.line {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#connectToUs {
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.textConnect p {
+  padding-bottom: 15px;
+}
+
+.text {
+  height: 40px;
+  width: 425px;
+  margin-bottom: 20px;
+  text-align: flex-start;
+  padding-left: 10px;
+}
+
+.txtarea {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 31px;
+}
+
+.send {
+  width: 169px;
+  border: 1px solid @orange;
+  background-color: @orange;
+  padding: 9px 34px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: @white;
+  font-family: 'Montserrat', sans-serif;
+
+  &:hover {
+    color: @orange;
     background-color: inherit;
   }
-  
-  .logoConnect {
-    fill: #0D0F15;
+}
+
+.logoConnect {
+  fill: @black;
+
+  &:hover {
+    fill: @orange;
   }
-  
-  .logoConnect:hover {
-    fill:#FF3D00;
-  }
-  
+}
