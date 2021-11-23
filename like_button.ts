@@ -5,16 +5,17 @@ class LikeButton extends React.Component {
     super(props);
     this.state = { liked: false };
   }
+  toggleClass() {
+    const like = this.state.liked;
+    this.setState({liked: !like});
+  }
 
   render() {
-    if (this.state.liked) {
-      return 'You liked this.';
-    }
-
     return e(
       'button',
-      { onClick: () => this.setState({ liked: true }) },
-      'Like'
+      { onClick: () => this.toggleClass()
+       },
+       this.state.liked ? 'You liked it' : 'Like'
     );
   }
 }
